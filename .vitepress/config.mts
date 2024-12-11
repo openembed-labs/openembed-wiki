@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Openembed Wiki",
+  base: '/openembed-wiki/',
   description: "openembed wiki",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
